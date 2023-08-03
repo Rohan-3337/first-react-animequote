@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/first-react-animequote/static/css/main.e519465b.css",
+    "main.js": "/first-react-animequote/static/js/main.170de600.js",
+    "static/js/787.23655c58.chunk.js": "/first-react-animequote/static/js/787.23655c58.chunk.js",
+    "index.html": "/first-react-animequote/index.html",
+    "main.e519465b.css.map": "/first-react-animequote/static/css/main.e519465b.css.map",
+    "main.170de600.js.map": "/first-react-animequote/static/js/main.170de600.js.map",
+    "787.23655c58.chunk.js.map": "/first-react-animequote/static/js/787.23655c58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e519465b.css",
+    "static/js/main.170de600.js"
+  ]
+}
