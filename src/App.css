@@ -1,0 +1,94 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body{
+  background: #050536;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+
+}
+.quote{
+  position: relative;
+}
+h1{
+  color: #fff;
+}
+.anime,.character{
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: plum;
+  color: white;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1.45rem;
+  letter-spacing: 1px;
+  max-width: 360px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.anime{
+  background-color: aquamarine;
+  font-weight: 400;
+  transform: translate(-25%,50%);
+}
+.character{
+  background-color: plum;
+  font-weight: 700;
+  transform: translate(25%,50%);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+
+}
+blockquote{
+  font-size: 2rem;
+  color: #fff;
+  max-width: 720px;
+  background-color: black;
+  padding: 3rem;
+  border-radius: 1.5rem;
+
+}
+button{
+  appearance: none;
+  border: none; 
+  outline: none;
+  background-color: plum;
+  color: #fff;
+  padding: 0.75rem 1.5rem; 
+  margin-top: 64px;
+  border-radius: 50px;
+  font-size: 1.45rem;
+  margin-bottom: 64px;
+  transition: 0.4s;
+  cursor: pointer;
+  font-weight: 700;
+}
+button:hover{
+  background-color: aquamarine;
+}
+.first{
+  color: plum;
+}
+.second{
+  color: aquamarine;
+}
+@media (max-width:760px) {
+  html{
+    font-size: 69%;
+  }
+  .app{
+    padding: 5rem;
+  }
+}
